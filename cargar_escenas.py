@@ -1,4 +1,3 @@
-# cargar_escenas.py
 
 from escena import Escena
 

@@ -12,7 +12,7 @@ def main():
     root.geometry("800x600")
     root.resizable(False, False)
     root.style = ttk.Style()
-    root.style.theme_use('clam') # Un tema moderno
+    root.style.theme_use('clam')
 
     app = JuegoGUI(root, escenas, escena_inicial)
     root.mainloop()

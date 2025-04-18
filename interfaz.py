@@ -1,4 +1,3 @@
-# interfaz.py (fragmento modificado)
 
 import tkinter as tk
 from tkinter import ttk, PhotoImage, messagebox
@@ -140,7 +139,7 @@ class JuegoGUI:
         ).pack(pady=10)
 
         for i, (opcion, siguiente_id) in enumerate(self.historial, 1):
-            color = "green"  # Todas las decisiones elegidas se mostrarán en verde
+            color = "green" 
             texto = f"{i}. {opcion} -> {siguiente_id}"
             ttk.Label(
                 self.frame,
